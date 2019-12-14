@@ -1,0 +1,398 @@
+.btn, .donation__left--process {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  color: #354463;
+  background-color: #c0f5d5;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  text-align: center; }
+
+.background-image, .donation--section {
+  background-position: 0% 0%;
+  background-color: green-light;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.width {
+  width: 100%; }
+
+.title-card {
+  background-color: #354463;
+  color: #fff;
+  font-size: 14px;
+  margin: 1rem 1rem;
+  padding: 0.75rem 3rem;
+  display: inline-block;
+  text-transform: uppercase; }
+
+.cursive-writing, .donation__right {
+  font-family: "Flood Std";
+  color: #fff;
+  font-size: 72px; }
+
+.heading-text {
+  font-size: 44px;
+  font-weight: bold;
+  color: #354463; }
+
+.flex-center, .donation--section {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  height: inherit; }
+  @media only screen and (min-width: 320px) {
+    .container {
+      width: 100%; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+:root {
+  font-family: "Helvetica";
+  box-sizing: border-box;
+  color: #354463;
+  line-height: 1.2; }
+
+html,
+body {
+  height: 100%;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+a:visited {
+  color: #354463; }
+
+a:active {
+  color: #354463; }
+
+.donation--section {
+  width: 100%;
+  background-image: url("../assets/donation/annie-spratt-427340-unsplash.png");
+  background-color: #354463; }
+  .donation--section .donation--main {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 75%; }
+    @media only screen and (max-width: 500px) {
+      .donation--section .donation--main {
+        display: block; } }
+  @media only screen and (max-width: 500px) {
+    .donation--section {
+      height: auto; } }
+
+.donation__right {
+  margin: 2rem 0;
+  font-size: 3rem;
+  text-align: left;
+  width: 40%; }
+  @media screen and (max-width: 320px) {
+    .donation__right {
+      text-align: justify; } }
+
+.footer__campaign {
+  font-family: "Flood Std";
+  color: #354463;
+  font-size: 44px; }
+
+.footer__heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: #354463; }
+
+.footer__campaign {
+  text-align: right; }
+
+.donation__footer--container {
+  /* border: 1px solid black; */
+  outline: 1px solid black;
+  padding: 1rem; }
+
+.donation__footer {
+  padding: 1rem;
+  margin: 2rem auto;
+  display: grid;
+  width: 75%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+  @media screen and (max-width: 992px) and (min-width: 501px) {
+    .donation__footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      width: 100%; } }
+  @media screen and (max-width: 500px) {
+    .donation__footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      width: 100%; } }
+
+.donation__left {
+  width: 85%;
+  background-color: #354463;
+  padding: 2rem;
+  margin: 1rem 2rem;
+  border: 0; }
+  .donation__left .donation__left--text {
+    margin: 1rem;
+    font-size: 1.75rem;
+    color: #fff;
+    text-align: left;
+    width: 100%; }
+  .donation__left--process {
+    color: #354463;
+    width: 100%;
+    border: none; }
+  .donation__left--back {
+    color: #c0f5d5;
+    border: 1px solid #fff; }
+
+.flex {
+  display: flex; }
+
+.flex-item {
+  width: 45%; }
+
+.donation__form-group {
+  margin: 1rem 0;
+  padding: 0 .5rem; }
+  .donation__form-group .input-label {
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+    color: #fff; }
+  .donation__form-group .input-field {
+    color: #fff;
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid #c1f7d5;
+    padding: 0.5rem 0rem;
+    text-transform: uppercase;
+    width: 100%; }
+  .donation__form-group input:focus {
+    background-color: none;
+    outline: 1px solid #c1f7d5;
+    border: none; }
+
+.special-link {
+  text-decoration: underline;
+  color: #c0f5d5;
+  margin: 1rem; }
+
+@media only screen and (max-width: 420px) {
+  .donation__left {
+    width: 90%;
+    padding: 1rem 0.5rem;
+    height: inherit; }
+    .donation__left .donation__left--text {
+      font-size: 1.2rem; }
+  .donation__form-group {
+    font-size: 75%; } }
+
+@media only screen and (max-width: 480px) {
+  .header {
+    padding: 0  0.5rem;
+    margin: 1rem 0rem; }
+    .header__wrapper {
+      margin: 0 0.5rem;
+      display: flex;
+      justify-content: space-between; }
+    .header__heading {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #354463;
+      margin: 0.5rem 0; }
+    .header__donate {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center; }
+      .header__donate input {
+        width: 100%;
+        border: none;
+        border-radius: 50px;
+        padding: 1rem;
+        margin: 1rem;
+        background-color: #C1F7D5;
+        font-size: 1rem;
+        font-weight: bold; }
+    .header .nav-links li {
+      margin: 0.5rem 0; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    margin: 1rem auto;
+    display: flex;
+    width: 83%; }
+    .header__wrapper {
+      margin: 0 0.5rem; }
+    .header__heading {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #354463;
+      margin: 0.5rem 0; }
+    .header__donate {
+      margin: 0 auto; }
+      .header__donate input {
+        width: 100%;
+        border: none;
+        border-radius: 50px;
+        padding: 1rem;
+        margin: 1rem;
+        background-color: #C1F7D5;
+        font-size: 1rem;
+        font-weight: bold; }
+    .header .nav-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; }
+      .header .nav-links li {
+        margin: 1rem 0; } }
+
+@media only screen and (min-width: 1025px) {
+  .header {
+    display: grid;
+    width: 1120px;
+    grid-template-columns: 4fr 1fr;
+    margin: 1.5rem auto; }
+    .header__heading {
+      padding: 0.5rem 0;
+      font-size: 1.5rem;
+      font-weight: bold; }
+    .header__wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin: 0; }
+    .header__donate {
+      display: flex;
+      justify-content: flex-end; }
+      .header__donate input {
+        font-size: 1rem;
+        border: none;
+        background-color: #C1F7D5;
+        color: #354463;
+        border-radius: 50px;
+        padding: 1rem;
+        font-weight: bold; }
+  .nav-links li {
+    padding: 1rem 3rem;
+    margin: 0 1rem; } }
+
+@media only screen and (max-width: 480px) {
+  .about__showcase {
+    height: 100%;
+    background-color: #354463; }
+    .about__showcase--wrapper {
+      padding: 0 2rem; }
+    .about__showcase--banner {
+      font-family: "Flood Std";
+      color: #fff;
+      padding: 2rem 0;
+      font-size: 44px; }
+    .about__showcase--card {
+      position: relative; }
+      .about__showcase--card--heading {
+        background-color: #354463;
+        color: #fff;
+        font-size: 14px;
+        padding: 0.5rem 2rem;
+        display: inline-block;
+        text-transform: uppercase;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        z-index: 99; }
+      .about__showcase--card--text {
+        text-align: center;
+        background-color: #fff;
+        padding: 2rem;
+        font-weight: bold;
+        font-size: 1.4rem; } }
+
+@media only screen and (min-width: 768px) {
+  .about__showcase {
+    background-image: url("../assets/about-us/annie-spratt-427339-unsplash.png");
+    background-position: 0% 0%;
+    background-color: #354463;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box; }
+    .about__showcase--wrapper {
+      padding: 0 2rem; }
+    .about__showcase--banner {
+      font-family: "Flood Std";
+      color: #fff;
+      font-size: 44px;
+      padding: 3rem; }
+    .about__showcase--card {
+      position: relative; }
+      .about__showcase--card--heading {
+        background-color: #354463;
+        color: #fff;
+        font-size: 14px;
+        padding: 0.5rem 2rem;
+        display: inline-block;
+        text-transform: uppercase;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        z-index: 99; }
+      .about__showcase--card--text {
+        text-align: center;
+        background-color: #fff;
+        padding: 2rem 0;
+        font-weight: bold;
+        font-size: 1.4rem; } }
+
+@media only screen and (min-width: 920px) {
+  .about__showcase {
+    width: 1440px;
+    height: 400px;
+    background-image: url("../assets/about-us/annie-spratt-427339-unsplash.png");
+    background-position: 0% 0%;
+    background-color: #354463;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto; }
+    .about__showcase--wrapper {
+      display: flex;
+      justify-content: space-between;
+      max-width: 75%;
+      margin: 0 auto;
+      padding: 0 0 0 1rem;
+      padding-top: 2rem; }
+    .about__showcase--banner {
+      font-size: 44px; }
+    .about__showcase--card {
+      border: 10px solid black;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      width: 540px;
+      z-index: 99; }
+      .about__showcase--card--heading {
+        background-color: #354463;
+        color: #fff;
+        font-size: 14px;
+        padding: 0.5rem 2rem;
+        display: block;
+        text-transform: uppercase;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        margin: 0 auto;
+        z-index: 99; }
+      .about__showcase--card--text {
+        text-align: center;
+        background-color: #fff;
+        padding: 4rem;
+        font-weight: bold;
+        font-size: 1.75rem; } }

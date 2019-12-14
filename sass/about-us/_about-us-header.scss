@@ -1,0 +1,132 @@
+// min device width 480px
+@media only screen and (max-width: 480px) {
+    .header {
+        padding:0  0.5rem;
+        margin: 1rem 0rem;
+        &__wrapper {
+            margin: 0 0.5rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__heading {
+            font-size: 1rem;
+            font-weight: bold;
+            color: $blue-dark;
+            margin: 0.5rem 0;
+        }
+
+        &__donate {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            input {
+                width: 100%;
+                border: none;
+                border-radius: 50px;
+                padding: 1rem;
+                margin: 1rem;
+                background-color: $blue-light;
+                font-size: 1rem;
+                font-weight: bold;
+            }
+        }
+
+        .nav-links {
+            li {
+                margin: 0.5rem 0;
+            }
+        }
+    }
+}
+
+// tablet
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .header {
+        margin: 1rem auto;
+            display: flex;
+
+        width: 83%;
+        &__wrapper {
+            margin: 0 0.5rem;
+        }
+
+        &__heading {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: $blue-dark;
+            margin: 0.5rem 0;
+        }
+
+        &__donate {
+            margin: 0 auto;
+            // display: flex;
+            // justify-content: center;
+            input {
+                width: 100%;
+                border: none;
+                border-radius: 50px;
+                padding: 1rem;
+                margin: 1rem;
+                background-color: $blue-light;
+                font-size: 1rem;
+                font-weight: bold;
+            }
+        }
+
+        .nav-links {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            li {
+                margin: 1rem 0;
+                // padding: 0 1rem;
+            }
+        }
+    }
+}
+
+// desktop
+@media only screen and (min-width: 1025px) {
+    .header {
+        display: grid;
+        width: 1120px; 
+        grid-template-columns: 4fr 1fr;
+        margin: 1.5rem auto; 
+
+        &__heading {
+            padding: 0.5rem 0;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+        }
+
+        &__donate {
+            display: flex;
+            justify-content: flex-end; 
+
+            input {
+                font-size: 1rem;
+                border: none;
+                background-color: $blue-light;
+                color: $blue-dark;
+                border-radius: 50px;
+                padding: 1rem; 
+                // margin: 0.5rem;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .nav-links {
+        li {
+            padding:1rem 3rem;
+            margin: 0 1rem;  
+        }
+    }
+}
+    

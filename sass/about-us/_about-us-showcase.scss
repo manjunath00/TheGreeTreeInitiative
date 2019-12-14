@@ -1,0 +1,187 @@
+// common
+// .about__showcase--banner {
+//     @extend .cursive-writing;
+// }
+
+// .about__showcase {
+//     @extend .background-image;
+// }
+
+// .about__showcase--card--heading {
+//     @extend .title-card;
+// }
+// mobile
+@media only screen and (max-width: 480px) {
+    .about__showcase {
+        height: 100%;
+        // background-image: url("../assets/about-us/annie-spratt-427339-unsplash.png");
+        // background-position: 0% 0%;
+        background-color: $green-dark;
+        // background-size: cover;
+
+        &--wrapper {
+            padding: 0 2rem;
+        
+        }
+
+        &--banner {
+            font-family: $cursive;
+            color: $white;
+            padding: 2rem 0;
+            font-size: 44px;
+        }
+
+        &--card {
+            position: relative;
+
+            &--heading {
+                background-color: $blue-dark;
+                color: $white;
+                font-size: 14px; 
+                padding: 0.5rem 2rem;
+                display: inline-block;
+                text-transform: uppercase;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                z-index: 99;
+            }
+
+            &--text {
+                text-align: center;
+                background-color: #fff;
+                padding: 2rem;
+                font-weight: bold;
+                font-size: 1.4rem;
+            }
+        }
+
+
+    
+    }
+
+}
+
+// tablets
+@media only screen and (min-width: 768px) {
+    .about__showcase {
+        // height: 600px;
+        background-image: url("../assets/about-us/annie-spratt-427339-unsplash.png");
+        background-position: 0% 0%;
+        background-color: $green-dark;
+        background-size:  cover;
+        background-repeat: no-repeat;
+        background-origin: border-box;
+
+         &--wrapper {
+            padding: 0 2rem;
+        
+        }
+
+        &--banner {
+            font-family: $cursive;
+            color: $white;
+            font-size: 44px;
+            padding: 3rem;
+        }
+
+        &--card {
+            // margin: 0.5em auto;
+            // width: 640px;    
+            position: relative;
+            // padding: 2rem 0;
+            &--heading {
+                background-color: $blue-dark;
+                color: $white;
+                font-size: 14px; 
+                padding: 0.5rem 2rem;
+                display: inline-block;
+                text-transform: uppercase;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                z-index: 99;
+            }
+
+            &--text {
+                text-align: center;
+                background-color: #fff;
+                padding: 2rem 0;
+                font-weight: bold;
+                font-size: 1.4rem;
+            }
+        }
+
+
+
+    }
+
+
+}
+
+// desktop
+@media only screen and (min-width: 920px) {
+    .about__showcase {
+        width: 1440px;
+        height: 400px;
+        background-image: url("../assets/about-us/annie-spratt-427339-unsplash.png");
+        background-position: 0% 0%;
+        background-color: $green-dark;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        
+        &--wrapper {
+            display: flex;
+            justify-content: space-between;
+            max-width: 75%;
+            margin: 0 auto;
+            padding: 0 0 0 1rem;
+            padding-top: 2rem;
+        }
+
+        &--banner {
+            // grid-column: 1 / 2;
+            // font-family: $cursive;
+            // color: $white;
+            // padding: 3rem;
+            font-size: 44px;
+        }
+
+        &--card {
+            // grid-column: 2 / 3;
+            // grid-row: 2 / 4 ;
+            border: 10px solid black;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            width: 540px;
+            z-index: 99;
+            &--heading {
+                background-color: $blue-dark;
+                color: $white;
+                font-size: 14px; 
+                padding: 0.5rem 2rem;
+                display: block;
+                text-transform: uppercase;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                left : 50%;
+                margin: 0 auto;
+                z-index: 99;
+            }
+
+            &--text {
+                text-align: center;
+                background-color: #fff;
+                padding: 4rem;
+                font-weight: bold;
+                font-size: 1.75rem;
+            }
+        }
+    }
+}
+
+
+
+

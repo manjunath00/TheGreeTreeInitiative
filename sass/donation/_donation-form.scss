@@ -1,0 +1,96 @@
+.donation__left {
+    width: 85%;
+    // height: 1024px;
+    // outline: 1px solid #fff;
+    background-color: #354463;
+    padding: 2rem ;
+    margin: 1rem 2rem;
+    border: 0;
+
+    .donation__left--text {
+        margin: 1rem; 
+        font-size: 1.75rem;
+        color: #fff;
+        text-align: left;
+        width: 100%;
+    }
+
+    &--process {
+        color: $blue-dark;
+        width: 100%;
+        @extend .btn;
+        border: none;
+    }
+
+    &--back {
+        color: $green-light;
+        
+        border: 1px solid $white;
+    }
+}
+
+
+
+.flex {
+    display: flex;
+    // justify-content: space-between;
+
+}
+
+.flex-item {
+    width: 45%;
+}
+
+.donation__form-group {
+    margin: 1rem 0;
+    padding: 0 .5rem;
+    
+    .input-label {
+        text-transform: uppercase;
+        padding: 0.5rem 0;
+        color: #fff;
+    }
+
+    .input-field {
+        color: #fff;
+        background-color: inherit;
+        border: none;
+        border-bottom: 2px solid #c1f7d5;
+        padding: 0.5rem 0rem;
+        text-transform: uppercase;
+        width: 100%;
+    }
+
+    input:focus {
+        background-color: none;
+        outline: 1px solid #c1f7d5;
+        border: none
+    }
+}
+
+.special-link {
+    text-decoration: underline;
+    color: $green-light;
+    margin: 1rem;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+
+    .donation__left {
+        width: 90%;
+        padding: 1rem 0.5rem;
+        height: inherit;
+
+        .donation__left--text {
+            font-size: 1.2rem;
+        }
+    }
+
+    .donation__form-group {
+        font-size: 75%;
+    }
+
+
+}  

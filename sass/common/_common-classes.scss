@@ -1,0 +1,42 @@
+// for background image
+.background-image {
+  background-position: 0% 0%;
+  background-color: green-light;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.width {
+  width: 100%;
+}
+// for card at the top of the card
+.title-card {
+  background-color: $blue-dark;
+  color: $white;
+  font-size: 14px;
+  margin: 1rem 1rem;
+  padding: 0.75rem 3rem;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+// for cursive writing
+.cursive-writing {
+  font-family: $cursive;
+  color: $white;
+  font-size: 72px;
+}
+
+// 
+.heading-text {
+  font-size: 44px;
+  font-weight: bold;
+  color: $blue-dark;
+}
+
+// for centering the element
+.flex-center {
+  display: flex;
+  justify-content : center;
+  align-items: center;
+}
