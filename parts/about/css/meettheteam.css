@@ -1,0 +1,142 @@
+* {
+  /* outline: 1px solid #000; */
+  box-sizing: border-box;
+}
+
+.meettheteam__container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.meettheteam {
+  width: 77.8%;
+  margin: 0 auto;
+}
+
+.meettheteam--text {
+  /* outline: 1px solid black; */ 
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  margin: 32px 0 91px 0; 
+  max-width: 1120px;
+}
+
+.meettheteam--members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+  row-gap: 3.5rem;
+}
+.meettheteam--heading {
+  font-size: 44px;
+  font-weight: bold;
+  text-align: left;
+  /* outline: 1px solid black; */
+  padding: 0 4rem 0 0;
+  /* padding-right: 3rem; */
+}
+
+.meettheteam--para {
+  font-size: 20px;
+  padding: 0 4rem;
+  /* max-width: 444px; */
+  /* outline: 1px solid black; */
+  padding: 2rem 4rem;
+}
+
+.meettheteam--member--name {
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  background-color: #354463;
+  color: #fff;
+  font-size: 14px;
+  transform: translate(12.5%, -50%);
+  width: 320px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .meettheteam__container {
+    width: 100%;
+  }
+
+  .meettheteam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    /* margin: 0; */
+  }
+
+  .meettheteam--text {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .meettheteam--members {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+  }
+
+  .meettheteam--heading {
+    font-size: 22px;
+    text-align: center;
+    padding: 0;
+    margin: 1.75rem 0;
+  }
+
+  .meettheteam--para {
+    padding: 0;
+    font-size: 14px;
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .member-photo {
+    width: 144px;
+    height: 144px;
+  }
+
+  .meettheteam--member--name {
+    width: 144px;
+    height: 64px;
+    transform: translate(0, -7.5%);
+    margin: 0;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .meettheteam__container {
+    width: 100%;
+    padding: 4rem;
+  }
+  .meettheteam {
+    width: 100%;
+  }
+
+  .meettheteam--heading {
+      font-size: 36px;
+      padding: 0;
+  }
+
+  .meettheteam--para {
+      padding: 0;
+  }
+
+  .meettheteam--members {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .member-photo {
+    width: 272px;
+    height: 272px;
+  }
+
+  .meettheteam--member--name {
+    width: 272px;
+  }
+}
