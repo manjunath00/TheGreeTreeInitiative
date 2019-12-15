@@ -1,0 +1,52 @@
+* {
+  /* outline: 1px solid black; */
+}
+
+.whatwedo__container {
+    padding: 6rem 0;
+    background-color: #354463;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.whatwedo {
+  width: 1120px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.whatwedo__cap {
+  width: 160px;
+  background-color: #fff;
+  color: #354463;
+}
+
+.whatwedo--item--logo {
+    width: 57px;
+    height: 57px;
+}
+
+.whatwedo__heading {
+  font-size: 44px;
+  font-weight: bold;
+  text-align: left;
+  margin: 2rem 0 6rem 0;
+}
+
+.whatwedo__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.whatwedo--item {
+  width: 245px;
+  margin: 2rem 0;
+}
+
+.whatwedo--item--heading {
+  margin-top: 1rem;
+  font-size: 28px;
+  font-weight: bold;
+}
+
