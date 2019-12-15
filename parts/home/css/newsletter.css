@@ -12,7 +12,7 @@
 html {
   box-sizing: border-box;
   color: #354463;
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
 }
 
 .newsletter__container {
@@ -64,4 +64,39 @@ html {
   padding: 1rem 2rem;
   text-align: center;
   margin: 0 0.5rem;
+}
+
+/*********************tablet*********************/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .newsletter__container {
+    display: flex;
+    height: 255px;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .newsletter {
+    display: block;
+    margin: 4rem auto;
+    width: 83.34%; /*83.3 => 640 / 768 */
+  }
+
+  .newsletter__text {
+    font-size: 22px;
+    margin: 0;
+    max-width: 448px;
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  .newsletter--email {
+    margin: 0;
+    height: 40px;
+    width: 448px;
+  }
+
+  .newsletter--submit {
+    margin: 0 1.1rem;
+    padding: 0.5rem 2rem;
+  }
 }
