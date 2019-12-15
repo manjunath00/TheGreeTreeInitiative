@@ -41,10 +41,10 @@ html {
 }
 
 .stories__container {
-    display: flex;
-    flex-direction: colum;
-    justify-content: center;
-    align-items: center;  
+  display: flex;
+  flex-direction: colum;
+  justify-content: center;
+  align-items: center;
 }
 
 .stories__story {
@@ -93,12 +93,14 @@ html {
 .stories__story--button {
   margin: 5rem 0 0 0;
   display: inline-block;
+  height: 48px;
 }
 
 /************ tablet ****************/
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
   .stories__story {
     display: block;
+    margin-left: 4rem;
   }
 
   .stories__story--body {
@@ -134,7 +136,7 @@ html {
   .stories__story--body {
     transform: translate(0, 0);
     padding: 0;
-    margin: 2rem auto;
+    margin: 2rem 0;
   }
 
   .story__cap {
