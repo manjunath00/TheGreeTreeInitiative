@@ -3,6 +3,7 @@
 *::after {
   margin: 0;
   padding: 0;
+  font-family: "Helvetica";
   box-sizing: inherit;
 }
 * {
@@ -89,6 +90,9 @@ html {
     text-align: left;
   }
 
+  .newsletter__form {
+    display: flex;
+  }
   .newsletter--email {
     margin: 0;
     height: 40px;
@@ -98,5 +102,41 @@ html {
   .newsletter--submit {
     margin: 0 1.1rem;
     padding: 0.5rem 2rem;
+  }
+}
+
+/*********************mobile*********************/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .newsletter__container {
+    display: flex;
+    height: 216px;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .newsletter {
+    display: block;
+    margin: 4rem auto;
+    width: 312px; /*83.3 => 640 / 768 */
+  }
+
+  .newsletter__text {
+    font-size: 20px;
+    margin: 0;
+    max-width: 322px;
+    text-align: left;
+  }
+
+  .newsletter--email {
+    font-size: 14px;
+    height: 40px;
+    margin: 0;
+    padding: 1rem 1rem;
+    width: 192px;
+  }
+
+  .newsletter--submit {
+    margin: 0rem;
+    padding: 0.5rem 0.75rem;
   }
 }
