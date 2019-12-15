@@ -12,6 +12,7 @@
 html {
   box-sizing: border-box;
   color: #354463;
+  font-family: 'Helvetica';
 }
 
 .newsletter__container {
@@ -49,6 +50,7 @@ html {
   border: 0;
   font-size: 20px;
   width: 352px;
+  margin: 0 1rem;
 }
 
 .newsletter--submit {
