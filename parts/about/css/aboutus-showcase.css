@@ -1,5 +1,4 @@
-body {
-  height: 100%;
+* {
   box-sizing: border-box;
 }
 
@@ -31,17 +30,21 @@ body {
 }
 
 .aboutus__showcase--box {
+  position: relative;
   width: 544px;
   height: 336px;
   background-color: #fff;
   color: #354463;
-  padding: 4rem;
+  padding: 0 4rem;
+  padding-top: 4rem;
   /* border: 1px solid #000; */
   z-index: 999;
+  transform: translateY(12.5%);
 }
 .aboutus__showcase--box-cap {
   transform: translateY(-250%);
   z-index: 50;
+  position: absolute;
 }
 
 .aboutus__showcase--box-text {
