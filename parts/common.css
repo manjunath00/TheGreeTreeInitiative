@@ -41,3 +41,7 @@ html {
   color: #354463;
   box-sizing: border-box;
 }
+
+li {
+  list-style: none;
+}
