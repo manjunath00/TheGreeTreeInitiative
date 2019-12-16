@@ -1,0 +1,50 @@
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.aboutus__showcase--container {
+  background-image: url("../../../assets/about-us/annie-spratt-427339-unsplash.png");
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  background-position: 0% 0%;
+  background-origin: border-box;
+  background-color: #335563;
+  height: 400px;
+  width: 1440px;
+  padding-top: 96px;
+  margin: 0 auto;
+}
+
+.aboutus__showcase {
+  width: 77.78%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.aboutus__showcase--banner {
+  font-size: 72px;
+  font-family: "Flood Std";
+  color: #fff;
+  /* margin-right: 280px; */
+}
+
+.aboutus__showcase--box {
+  width: 544px;
+  height: 336px;
+  background-color: #fff;
+  color: #354463;
+  padding: 4rem;
+  /* border: 1px solid #000; */
+  z-index: 999;
+}
+.aboutus__showcase--box-cap {
+  transform: translateY(-250%);
+  z-index: 50;
+}
+
+.aboutus__showcase--box-text {
+  font-size: 28px;
+  font-weight: bold;
+}
