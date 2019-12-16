@@ -1,0 +1,240 @@
+/* header css */
+* {
+  box-sizing: border-box;
+}
+.header--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  margin: 0 auto;
+  /* outline: 1px solid #000; */
+  padding: 2rem 0;
+}
+.header {
+  display: grid;
+  width: 1120px;
+  grid-template-columns: 2.5fr 0.5fr;
+  margin: 0 auto;
+  /* outline: 1px solid #000; */
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.header__nav-links li {
+  margin: 0 3rem;
+  padding: 1rem 0;
+}
+.header__heading {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  width: 160px;
+}
+
+.header__donate {
+  /* height: 48px; */
+  width: 160px;
+  padding: 0.25rem 0;
+}
+.btn {
+  padding: 0.75rem 1.25rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header--container {
+    max-width: 100%;
+    padding: 0rem 4rem;
+  }
+
+  .header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+  }
+
+  .header__wrapper {
+    display: block;
+  }
+
+  .header__heading {
+    margin: 0.5rem 0;
+  }
+
+  .header__nav-links {
+    margin: 0.75rem 0;
+  }
+
+  .header__nav-links li {
+    margin: 0;
+    padding: 0.5rem;
+  }
+  .header__donate {
+    padding: 0;
+    margin: 2rem 0;
+  }
+
+  .header__donate .btn {
+    padding: 0.75rem 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .header--container,
+  .header,
+  .header__nav-links {
+    display: block;
+  }
+
+  .header--container {
+    padding: 2rem;
+  }
+
+  .header__heading {
+    padding: 0.5rem 0;
+  }
+
+  .header--container,
+  .header {
+    max-width: 100%;
+  }
+
+  .header__nav-links li {
+    margin: 0;
+    padding: 0.3rem 0;
+  }
+
+  .header__donate {
+    margin: 0;
+    width: 100%;
+  }
+
+  .header__donate .btn {
+    width: 100%;
+    display: block;
+  }
+}
+
+/************************showcase********************/
+* {
+  box-sizing: border-box;
+}
+
+.aboutus__showcase--container {
+  background-image: url("../../assets/about-us/annie-spratt-427339-unsplash.png");
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  background-position: 0% 0%;
+  background-origin: border-box;
+  background-color: #335563;
+  height: 400px;
+  width: 1440px;
+  padding-top: 96px;
+  margin: 0 auto;
+}
+
+.aboutus__showcase {
+  width: 77.78%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.aboutus__showcase--banner {
+  font-size: 72px;
+  font-family: "Flood Std";
+  color: #fff;
+}
+
+.aboutus__showcase--box {
+  position: relative;
+  width: 544px;
+  height: 336px;
+  background-color: #fff;
+  color: #354463;
+  padding: 0 4rem;
+  padding-top: 4rem;
+  /* border: 1px solid #000; */
+  z-index: 999;
+  transform: translateY(12.5%);
+}
+.aboutus__showcase--box-cap {
+  transform: translateY(-250%);
+  z-index: 50;
+  position: absolute;
+}
+
+.aboutus__showcase--box-text {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .aboutus__showcase--container {
+    width: 100%;
+    height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+
+  .aboutus__showcase {
+    display: block;
+  }
+
+  .aboutus__showcase--banner {
+    font-size: 44px;
+  }
+
+  .aboutus__showcase--box {
+    width: 312px;
+    height: 264px;
+    padding: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 136px;
+    /* margin-bottom: 5rem; */
+  }
+
+  .aboutus__showcase--box-cap {
+    transform: translateY(-435%);
+    width: 160px;
+  }
+
+  .aboutus__showcase--box-text {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .aboutus__showcase--container {
+    height: 608px;
+    padding: 4rem;
+    margin: 0;
+  }
+  .aboutus__showcase {
+    display: block;
+    margin: 0;
+  }
+
+  .aboutus__showcase--banner {
+    font-size: 44px;
+  }
+
+  .aboutus__showcase--box {
+    width: 640px;
+    height: 264px;
+  }
+}

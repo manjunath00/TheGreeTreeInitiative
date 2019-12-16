@@ -1,0 +1,51 @@
+.btn {
+  color: #354463;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 0;
+  background-color: #c1f7d5;
+  font-size: 1.125rem; /* 18px */
+  font-weight: bold;
+  padding: 0.6rem 2.1rem;
+  text-align: center;
+}
+
+.cap {
+  color: #fff;
+  background-color: #354463;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  z-index: 999;
+  font-size: 14px;
+  display: inline-block;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica";
+  box-sizing: inherit;
+  /* outline: 1px solid red; */
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #354463;
+}
+
+html {
+  color: #354463;
+  box-sizing: border-box;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
