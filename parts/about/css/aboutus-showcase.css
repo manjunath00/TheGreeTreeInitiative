@@ -25,8 +25,7 @@
 .aboutus__showcase--banner {
   font-size: 72px;
   font-family: "Flood Std";
-  color: #fff;
-  /* margin-right: 280px; */
+  color: #fff; 
 }
 
 .aboutus__showcase--box {
@@ -88,5 +87,26 @@
 
   .aboutus__showcase--box-text {
     font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .aboutus__showcase--container {
+    height: 608px;
+    padding: 4rem;
+    margin: 0;
+  }
+  .aboutus__showcase {
+    display: block;
+    margin: 0;
+  }
+
+  .aboutus__showcase--banner {
+    font-size: 44px;
+  }
+
+  .aboutus__showcase--box {
+    width: 640px;
+    height: 264px;
   }
 }
