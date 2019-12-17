@@ -24,6 +24,7 @@ html {
   width: 1440px;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
   align-items: center;
 }
 
@@ -36,6 +37,7 @@ html {
   font-size: 28px;
   font-weight: bold;
   text-align: left;
+  box-sizing: border-box;
   padding: 0.5rem;
 }
 
@@ -47,6 +49,7 @@ html {
 
 .newsletter--email {
   padding: 1rem 2.5rem;
+  box-sizing: border-box;
   border-radius: 50px;
   border: 0;
   font-size: 20px;
@@ -59,6 +62,7 @@ html {
   box-sizing: border-box;
   border-radius: 50px;
   border: 0;
+  box-sizing: border-box;
   color: #c1f7d5;
   font-size: 1.125rem;
   font-weight: bold;
