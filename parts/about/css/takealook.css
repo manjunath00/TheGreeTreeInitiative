@@ -5,12 +5,16 @@
 
 .takealook__container {
   width: 1120px;
+  margin: 0 auto;
+  background-color: #354463;
 }
 
 .takealook__header {
   display: flex;
   justify-content: space-between;
-  margin: 4rem 0;
+  padding: 1rem;
+  margin: 0;
+  color: #fff;
 }
 
 .round-btn {
@@ -44,7 +48,7 @@
 .takealook--box {
   width: 545px;
   height: 785px;
-  margin: 1rem;
+  margin: 0 0.5rem;
   /* outline: 1px solid #000; */
 }
 
@@ -141,7 +145,7 @@
   .takealook__header {
     display: block;
     text-align: center;
-    margin: 1rem 0;
+    margin: 0;
   }
 
   .takealook__header--heading {
