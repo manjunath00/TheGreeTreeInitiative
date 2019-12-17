@@ -399,8 +399,10 @@
 
 .meettheteam {
   width: 77.8%;
-  margin: 0 auto; 
-  padding: 8rem 0;
+  margin: 0 auto;
+  /* padding: 8rem 0; */
+  padding-top: 8rem;
+  padding-bottom: 4rem;
 }
 
 .meettheteam--text {
@@ -408,7 +410,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .meettheteam--members {
@@ -423,14 +425,14 @@
   text-align: left;
   padding: 2rem;
   width: 48%;
-  /* outline: 1px solid black; */ 
+  /* outline: 1px solid black; */
 }
 
 .meettheteam--para {
   font-size: 20px;
   width: 49%;
-  padding: 2rem; 
-  /* outline: 1px solid black; */ 
+  padding: 2rem;
+  /* outline: 1px solid black; */
 }
 
 .meettheteam--member--name {
@@ -525,7 +527,6 @@
     padding: 0;
     margin: 1.75 auto;
     width: 100%;
-
   }
 
   .meettheteam--members {
@@ -539,5 +540,119 @@
 
   .meettheteam--member--name {
     width: 272px;
+  }
+}
+
+/*************impact********************/
+.about-stats--container {
+  height: 100%;
+  max-width: 75%;
+  background-size: cover;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #354463;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/about-us/Impact\ Background.png");
+}
+.aboutstats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 77.78%;
+}
+
+.aboutstats__cap {
+  margin-top: 8rem;
+  background-color: #fff;
+  color: #354463;
+  width: 160px;
+}
+
+.aboutstats__text {
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  margin: 2.625rem 0;
+  width: 745px;
+}
+
+.aboutstats__stats {
+  margin: 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 44px;
+}
+
+.aboutstats__statistic {
+  text-align: center;
+  color: #ffffff;
+}
+
+.aboutstats--cursive {
+  font-family: "Flood Std";
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.aboutstats__statistic--text {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-stats--container {
+    max-width: 100%;
+  }
+  .aboutstats__cap {
+    margin-top: 4rem;
+  }
+  .aboutstats {
+    width: 100%;
+  }
+  .aboutstats__text {
+    font-size: 36px;
+    margin-bottom: 68px;
+    width: 100%;
+  }
+
+  .aboutstats__stats {
+    margin: 5rem 0;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+    row-gap: 4rem;
+  }
+
+  .aboutstats__statistic--text {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .about-stats--container {
+    max-width: 100%;
+  }
+  .aboutstats__cap {
+    margin: 0;
+  }
+
+  .aboutstats__text {
+    font-size: 22px;
+    width: 100%;
+  }
+  .aboutstats__stats {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  .aboutstats__statistic {
+    margin: 2rem;
+  }
+
+  .aboutstats__statistic--text {
+    font-size: 16px;
   }
 }
